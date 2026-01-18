@@ -1,0 +1,32 @@
+# from math import pi ,sqrt
+# n=int(input("enter the radiue"))
+# def circle(n):
+#  return  (pi)*n*n
+# print("the arean is ",circle(n))
+
+# random no guess
+# import random
+# num = random.randint(1,10)
+# print(num) 
+# n=int(input("guess the no btw 1 to 10 "))
+# if(n>num):
+#     print("the too high")
+# elif n<num:
+#     print("to low")
+# else:
+#     print("correct")
+
+n1=int(input("enter the first no: "))
+n2=int(input("enter the second no: "))
+option=int(input("Enter the option :\n 1) ADD\n 2)SUBSTRACT \n3)multiply \n4)divide\n"))
+if option==1:
+        print("the answer is ",n1+n2)
+elif option==2:
+        print("the answer is ",n1-n2)
+elif option==3:
+        print("the answer is :",n1*n2)
+else:
+        try:
+                print("the answer is :",n1/n2)
+        except:
+                print("cant divide by zero")
